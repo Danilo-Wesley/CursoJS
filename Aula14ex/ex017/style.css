@@ -25,3 +25,10 @@ footer{
     text-align: center;
     font-style: italic;
 }
+select{
+    margin-top: 10px;
+    width: 200px;
+}
+option{
+    padding: 2px;
+}
