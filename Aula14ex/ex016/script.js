@@ -5,6 +5,7 @@ function contar(){
     var passotxt = window.document.getElementById('txtpasso').value
     if (iniciotxt.length == 0 || fimtxt.length ==0){
         alert('[ERRO] Faltam dados para a contagem!')
+        res.innerHTML = `Imposível Contar!`
         return
     }
     var inicio = Number(iniciotxt)   
