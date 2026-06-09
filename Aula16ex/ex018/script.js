@@ -37,6 +37,7 @@ function adicionar(){
     alert('Valor inválido ou número ja adicionado')
 }
     input.value = ''
+    input.focus()
 }
 function finalizar(){
     
