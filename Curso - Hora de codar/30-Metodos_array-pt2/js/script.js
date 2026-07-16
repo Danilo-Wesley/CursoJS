@@ -1,4 +1,4 @@
-// splice - adiciona elementos no meio de um array, [indice onde cmç , se vai escluir , oq quer adicionar]
+// splice - adiciona elementos no meio de um array, [indice onde cmç , se vai excluir , oq quer adicionar]
 
 var arr = [1,2,3,4,5]
 
