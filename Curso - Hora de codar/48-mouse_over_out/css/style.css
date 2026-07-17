@@ -1,0 +1,13 @@
+h1 { 
+    color: purple;
+    
+}
+
+.hide{
+    display: none;
+}
+
+body.escuro{
+    background-color: black;
+    color: white;
+}
