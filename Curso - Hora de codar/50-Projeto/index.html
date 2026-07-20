@@ -10,10 +10,10 @@
 <body>
     <div id="task-container">
         <div id="task-header">
-            <h2>Salve a sua próxima tarefa</h2>
+            <h2>Salve a sua próxima tarefa:</h2>
             <form action="" id="add-task-forms">
                 <input type="text" name="task-title" id="task-title" placeholder="O que você vai fazer?">
-                <button id="add=btn" type="submit"> 
+                <button id="add-btn" type="submit"> 
                     <ion-icon name="add-outline" ></ion-icon>
                 </button>
             </form>
@@ -23,18 +23,24 @@
             <ul id="task-list">
                 <li class="task-box">
                     <span class="task-title">Teste 1</span>
-                    <ion-icon name="checkmark-outline" class="done-btn"></ion-icon>
-                    <ion-icon name="close-outline" class="remove-btn"></ion-icon>
+                    <div class="li-icons">
+                        <ion-icon name="checkmark-outline" class="done-btn"></ion-icon>
+                        <ion-icon name="close-outline" class="remove-btn"></ion-icon>
+                    </div>
                 </li>
-                    <li class="task-box">
+                <li class="task-box">
                     <span class="task-title">Teste 2</span>
-                    <ion-icon name="checkmark-outline" class="done-btn"></ion-icon>
-                    <ion-icon name="close-outline" class="remove-btn"></ion-icon>
+                    <div class="li-icons">
+                        <ion-icon name="checkmark-outline" class="done-btn"></ion-icon>
+                        <ion-icon name="close-outline" class="remove-btn"></ion-icon>
+                    </div>
                 </li>
-                    <li class="task-box">
+                <li class="task-box">
                     <span class="task-title">Teste 3</span>
-                    <ion-icon name="checkmark-outline" class="done-btn"></ion-icon>
-                    <ion-icon name="close-outline" class="remove-btn"></ion-icon>
+                    <div class="li-icons">
+                        <ion-icon name="checkmark-outline" class="done-btn"></ion-icon>
+                        <ion-icon name="close-outline" class="remove-btn"></ion-icon>
+                    </div>
                 </li>
             </ul>
         </div>
