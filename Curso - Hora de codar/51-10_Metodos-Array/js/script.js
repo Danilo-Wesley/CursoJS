@@ -27,3 +27,23 @@ console.log(menorSalario)
 data[menorSalario].sallary += 200
 
 console.log(data[menorSalario])
+
+// 4 - includes => verifica se o array tem algum item especifico
+const numbers = [1,2,3,4,5]
+
+const hasFour = numbers.includes(4)
+
+console.log(hasFour) // retorna true ou false
+
+console.log(numbers.includes(100))
+
+// 5 - map => pecorre cada um dos itens e tem a possibilidade de alterar cada um individualmente baseado na condição
+data.map((user) => (user.newsletter = false))
+
+console.log(data)
+
+// 6 - filter => filtro baseado em uma condição
+const drivers = data.filter((user) => user.driverLicense === true) // para caso seja true nao precisa comparar, so caso seja false
+
+console.log(drivers)
+
