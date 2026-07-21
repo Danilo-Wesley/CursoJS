@@ -47,3 +47,36 @@ const drivers = data.filter((user) => user.driverLicense === true) // para caso 
 
 console.log(drivers)
 
+// 7 reduce => redudiz, tipo a soma de salario de todos
+const somaSalarios = data.reduce((salarioTotal, user) => (salarioTotal += user.sallary),0) // adicionou 0 ao salarioTotal pra nao dar erro
+
+console.log(somaSalarios)
+
+// 8 - forEach => Eu defino oq ele vai fazer
+const showUserNames = (users) => {
+    users.forEach((user) => {
+        console.log(`Olá ${user.name}`)
+    })
+}
+
+showUserNames(data)
+
+// 9 - some =. verifica se dentro do array algo corresponde ao buscado (true or false) se alguem tem
+let someoneWithNewsLetter =  data.some((user) => user.newsletter)
+
+console.log(someoneWithNewsLetter)
+
+data[0].newsletter = true
+
+someoneWithNewsLetter =  data.some((user) => user.newsletter)
+
+console.log(someoneWithNewsLetter)
+
+// 10 - every => verifica se todo mundo tem a condição buscada
+const everyUserName = data.every((user) => user.name) // se tiver qualquer valor é true, se nao é false
+
+console.log(everyUserName)
+
+const evertGoodSalary = data.every((user) => user.sallary >= 2000)
+
+console.log(evertGoodSalary)
